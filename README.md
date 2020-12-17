@@ -21,3 +21,13 @@ if vmtools doesn't work, try: https://github.com/vmware/open-vm-tools/issues/447
 >
 > I also need to restart `vmtoolsd` service so that other stuff like resizing window
 > works too.
+
+3. wmname
+
+Java 识别不了 dwm 窗口管理器, 这会导致 Java 的图形程序有各种问题--比如菜单自动消失、窗口尺寸无法改变等等
+
+使用 suckless 提供的工具 [wmname](https://tools.suckless.org/x/wmname/) 可以冒充其他窗口管理器的名称, 解决以上问题
+
+``` bash
+wname LG3D
+```
