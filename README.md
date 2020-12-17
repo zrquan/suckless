@@ -29,5 +29,5 @@ Java 识别不了 dwm 窗口管理器, 这会导致 Java 的图形程序有各�
 使用 suckless 提供的工具 [wmname](https://tools.suckless.org/x/wmname/) 可以冒充其他窗口管理器的名称, 解决以上问题
 
 ``` bash
-wname LG3D
+wmname LG3D
 ```
